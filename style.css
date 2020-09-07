@@ -1,46 +1,169 @@
 @font-face
 {
-    font-family: 'raleway';
-    src: url('Raleway-Regular.ttf');
+  font-family: 'raleway';
+  src: url('Raleway-Regular.ttf');
 }
 
-@font-face
+@font-face 
 {
-    font-family: 'raleway-bold';
-    src: url('Raleway-Bold.ttf')
+  font-family: 'raleway_bold';
+  src: url('Raleway-Bold.ttf');
 }
 
 body
-{ 
-    width: 60%;
-    margin: auto;
-    font-family: raleway;
+{
+  width: 60%;
+  margin: auto;
+  font-family: raleway;
 }
 
 header
 {
-    display: flex;
+  display: flex;
 }
 
 #logo
 {
-    flex: 2;
-    padding-left: 10px;
-    padding-top: 40px;
+  flex: 2;
+  padding-left: 10px;
+  padding-top: 40px;
 }
 
 nav
 {
-    display: flex;
-    flex: 1;
-    height: 80px;
-    padding-top: 40px;
+  display: flex;
+  flex: 1;
+  height: 80px;
+  padding-top: 40px;
 }
 
 nav a
 {
-    margin-left: 80px;
-    text-decoration: none;
-    margin-top: 15px;
+  margin-left: 80px;
+  text-decoration: none;
+  margin-top: 15px;
+}
 
+nav a:hover
+{
+  color: black;
+}
+
+h1
+{
+  font-size: 25px;
+}
+
+table
+{
+  border-collapse: collapse;
+}
+
+#guauche
+{
+  width: 50px;
+  height: 35px;
+  background-color: #F2F2F2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#periscope
+{
+  width: 20px;
+  height: 20px;
+  padding-left: 15px;
+}
+
+#border
+{
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+#barre 
+{
+  border: none;
+  height: 35px;
+  font-size: 15px;
+  font-family: raleway_bold;
+}
+
+#back 
+{
+  background: #0065FC;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 100px;
+}
+
+#bouton
+{
+  border: none;
+  background: #0065FC;
+  color: white;
+  font-size: 15px;
+  height: 35px;
+  width: 90px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#filtres
+{
+  margin-top: 50px;
+  font-family: raleway_bold;
+  display: flex;
+}
+
+#filtres2
+{
+  height: 40px;
+  margin-top: 10px;
+}
+
+#economique, #familiale, #romantique, #animaux
+{
+  display: flex;
+  border-top: 2px solid #C6CCD8;
+  border-right: 2px solid #C6CCD8;
+  border-bottom: 2px solid #C6CCD8;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+
+#icone_eco, #icone_fa, #icone_rom, #icone_ani
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #DEEBFF;
+  margin-top: 0px;
+}
+
+#icone1, #icone2, #icone3, #icone4
+{
+  width: 15px;
+  height: 15px;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+
+#eco, #fam, #rom, #ani
+{
+height: 40px;
+text-align: center;
+font-size: 15px;
+margin-top: 9px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+#icone_eco:hover, #icone_fa:hover, #icone_rom:hover, #icone_ani:hover
+{
+  background: #0065FC;
 }
