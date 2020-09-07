@@ -167,3 +167,19 @@ padding-right: 10px;
 {
   background: #0065FC;
 }
+
+article
+{
+  width: 60%;
+}
+
+#hebergements
+{
+  display: flex;
+}
+
+article img
+{
+  width: 100px;
+  height: 60px;
+}
