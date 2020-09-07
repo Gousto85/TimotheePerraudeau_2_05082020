@@ -1,0 +1,46 @@
+@font-face
+{
+    font-family: 'raleway';
+    src: url('Raleway-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: 'raleway-bold';
+    src: url('Raleway-Bold.ttf')
+}
+
+body
+{ 
+    width: 60%;
+    margin: auto;
+    font-family: raleway;
+}
+
+header
+{
+    display: flex;
+}
+
+#logo
+{
+    flex: 2;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+nav
+{
+    display: flex;
+    flex: 1;
+    height: 80px;
+    padding-top: 40px;
+}
+
+nav a
+{
+    margin-left: 80px;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
