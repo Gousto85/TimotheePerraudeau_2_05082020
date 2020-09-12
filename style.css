@@ -12,36 +12,47 @@
 
 body
 {
-  width: 60%;
+  width: 1200PX;
   margin: auto;
   font-family: raleway;
+}
+
+#global
+{
+  margin: 50px;
 }
 
 header
 {
   display: flex;
+  margin-bottom: 50px;
 }
 
 #logo
 {
   flex: 2;
-  padding-left: 10px;
-  padding-top: 40px;
+  margin: 0px;
+}
+
+#logo img
+{
+  width: 72px;
+  height: 35px;
 }
 
 nav
 {
   display: flex;
   flex: 1;
-  height: 80px;
-  padding-top: 40px;
+  height: 30px;
 }
 
 nav a
 {
   margin-left: 80px;
   text-decoration: none;
-  margin-top: 15px;
+  font-size: 11px;
+  height: 32px;
 }
 
 nav a:hover
@@ -49,9 +60,19 @@ nav a:hover
   color: black;
 }
 
+#section_1
+{
+  margin-bottom: 100px;
+}
+
 h1
 {
-  font-size: 25px;
+  font-size: 18px;
+}
+
+p
+{
+  font-size:13px;
 }
 
 table
@@ -111,9 +132,31 @@ table
   padding-right: 15px;
 }
 
+#info_t
+{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#info
+{
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  border: 1px solid #C6CCD8;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+#it
+{
+  margin-top: 2px;
+}
+
+
 #filtres
 {
-  margin-top: 50px;
+  margin-top: 20px;
   font-family: raleway_bold;
   display: flex;
 }
@@ -168,18 +211,146 @@ padding-right: 10px;
   background: #0065FC;
 }
 
-article
+#section_2
 {
-  width: 60%;
+  margin-bottom: 100px;
 }
 
-#hebergements
+article
 {
-  display: flex;
+  width: 750px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  margin-right: 25px;
 }
 
 article img
 {
-  width: 100px;
-  height: 60px;
+  width: 200px;
+  height: 120px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 2px;
+  margin-bottom: 0px;
+}
+
+#ligne1, #ligne2
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+#cannebiere, #mer
+{
+  margin-left: 38px;
+}
+
+#mouettes, #amina
+{
+  margin-right: 38px;
+}
+
+h2
+{
+  font-size: 18px;
+  font-family: raleway_bold;
+  padding-top: 15px;
+  padding-left: 38px;
+}
+
+h3
+{
+  font-size: 12px;
+  font-family: raleway_bold;
+  margin-top: 0px;
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+
+.desimg
+{
+  font-size: 11px;
+  padding-left: 10px;
+  margin: 0px;
+  padding-bottom: 2px;
+}
+
+#cannebiere, #port, #mouettes, #mer, #panier, #amina
+{
+  background-color: white;
+  border-radius: 10px;
+}
+
+#aff
+{
+  font-size: 10px;
+  font-family: raleway_bold;
+  margin-top: 25px;
+  margin-left: 38px;
+  margin-bottom: 25px;
+}
+
+#cannebiere, #port, #mouettes
+{
+  margin-bottom: 38px;
+}
+
+.notes
+{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.star
+{
+  width: 12px;
+  height: 12px;
+  margin: 0px;
+  padding-right: 2px;
+}
+
+#section_2
+{
+  display: flex;
+}
+
+aside
+{
+  background: #F2F2F2;
+  width: 325px;
+  border-radius: 15px;
+}
+
+#soleil, #eau, #bleu_et_blanc
+{
+  display: flex;
+  width: 249px;
+  height: 119px;
+  background: white;
+  border-radius: 10px;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-bottom: 38px;
+}
+
+aside img
+{
+  width: 115px;
+  height: 115px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 2px;
+}
+
+.desimg2
+{
+  margin-top: 10px;
+}
+
+.note2
+{
+  display: flex;
+  padding-left: 10px;
+  margin-top: 30px;
 }
