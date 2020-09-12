@@ -281,6 +281,7 @@ h3
   border-radius: 10px;
 }
 
+
 #aff
 {
   font-size: 10px;
@@ -300,7 +301,7 @@ h3
   display: flex;
   margin-left: 10px;
   margin-top: 3px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 .star
 {
@@ -353,4 +354,109 @@ aside img
   display: flex;
   padding-left: 10px;
   margin-top: 30px;
+}
+
+#activités
+{
+  display: flex;
+  width: 1100px;
+}
+
+#colonne1, #colonne2, #colonne3, #colonne4
+{
+  width: 248px;
+}
+
+#colonne1, #colonne2, #colonne3
+{
+  margin-right: 36px;
+}
+
+#colonne1 img, #img1c2 img, #img2c2 img, #colonne3 img, #img1c4 img, #img2c4 img
+{
+  width: 248px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#colonne1, #img1c2, #img2c2, #colonne3, #img1c4, #img2c4
+{
+  box-shadow: 5px 5px 5px #f2f2f2;
+  border-radius: 10px;
+}
+
+#colonne1 img, #colonne3 img
+{
+  height: 408px;
+}
+
+#img1c2, #img1c4
+{
+  margin-bottom: 36px;
+}
+
+.legact
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#img1c4 img, #img2c4 img
+{
+  height: 166px;
+}
+
+#section_3 h2
+{
+  padding-left: 0px;
+}
+
+#img1c2 img
+{
+  height: 202px;
+}
+
+#img2c2 img
+
+{
+  height: 130px;
+}
+
+footer
+{
+  display: flex;
+  background: #F2F2F2;
+  margin-bottom: 50px;
+}
+
+footer h3
+{
+  padding-left: 0px;
+  margin-bottom: 8px;
+}
+
+footer div
+{
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 200px;
+}
+
+footer p
+{
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+}
+
+#colonne1 .legact, #colonne3 .legact
+{
+  
 }
