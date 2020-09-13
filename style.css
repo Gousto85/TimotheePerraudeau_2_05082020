@@ -228,7 +228,7 @@ article
 
 article img
 {
-  width: 200px;
+  width: 198px;
   height: 120px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -280,7 +280,7 @@ h3
 #cannebiere, #port, #mouettes, #mer, #panier, #amina
 {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 13px;
 }
 
 
@@ -344,7 +344,7 @@ aside
   width: 249px;
   height: 119px;
   background: white;
-  border-radius: 10px;
+  border-radius: 13px;
   margin-left: 38px;
   margin-right: 38px;
   margin-bottom: 38px;
@@ -352,8 +352,8 @@ aside
 
 aside img
 {
-  width: 115px;
-  height: 115px;
+  width: 111px;
+  height: 111px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   margin: 4px;
