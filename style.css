@@ -62,7 +62,7 @@ nav a:hover
 
 #section_1
 {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 h1
@@ -108,6 +108,7 @@ table
   height: 35px;
   font-size: 15px;
   font-family: raleway_bold;
+  padding-left: 10px;
 }
 
 #back 
@@ -176,6 +177,7 @@ table
   height: 40px;
   border-radius: 50px;
   margin-left: 30px;
+  margin-top: 2px;
 }
 
 #icone_eco, #icone_fa, #icone_rom, #icone_ani
@@ -191,8 +193,8 @@ table
 {
   width: 15px;
   height: 15px;
-  margin-left: 14px;
-  margin-top: 14px;
+  margin-left: 13px;
+  margin-top: 12px;
 }
 
 #eco, #fam, #rom, #ani
@@ -213,7 +215,7 @@ padding-right: 10px;
 
 #section_2
 {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 article
@@ -230,7 +232,7 @@ article img
   height: 120px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin: 2px;
+  margin: 4px;
   margin-bottom: 0px;
 }
 
@@ -323,6 +325,19 @@ aside
   border-radius: 15px;
 }
 
+#logpop
+{
+  display: flex;
+}
+
+#chart
+{
+  width: 16px;
+  height: 16px;
+  padding-top: 30px;
+  padding-left: 61px;
+}
+
 #soleil, #eau, #bleu_et_blanc
 {
   display: flex;
@@ -341,7 +356,7 @@ aside img
   height: 115px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  margin: 2px;
+  margin: 4px;
 }
 
 .desimg2
@@ -456,7 +471,7 @@ a
   margin-bottom: 5px;
 }
 
-#colonne1 .legact, #colonne3 .legact
+#cannebiere img, #port img, #mouettes img, #mer img, #panier img, #amina img, #soleil img, #eau img, #bleu_et_blanc img, #section_3 img 
 {
-  
+  object-fit: cover;
 }
