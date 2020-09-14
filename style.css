@@ -475,3 +475,139 @@ a
 {
   object-fit: cover;
 }
+
+@media screen and (max-width: 1280px)
+{
+  body
+  {
+    width: 100%;
+  }
+
+  #global
+  {
+    margin: auto;
+  }
+  header
+  {
+    margin-top: 20px;
+  }
+
+  #logo, table, #info_t
+  {
+    margin-left: 15px;
+  }
+
+  h1, #desh1
+  {
+    padding-left: 15px;
+  }
+
+  #filtres
+  {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #section_2
+  {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  article, #populaire
+  {
+    margin: auto;
+  }
+
+  nav
+  {
+    padding-right: 20px;
+  }
+
+  #populaire
+  {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+  }
+
+  aside
+  {
+    width: 100%;
+    background: white;
+  }
+
+  #soleil, #eau, #bleu_et_blanc
+
+  {
+    margin: auto;
+    box-shadow: 5px 5px 5px #f2f2f2;
+    padding: 0px;
+    height: 111px;
+    
+  }
+
+  aside img
+  {
+    margin: 0px;
+  }
+
+  #activités
+  {
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  #colonne1, #colonne2, #colonne3, #colonne4
+  {
+    margin: auto;
+    width: 95%;
+
+  }
+
+  #colonne1 img, #colonne2 img, #colonne3 img, #colonne4 img
+  {
+    width: 100%;
+    height: 150px;
+  }
+
+  footer
+  {
+    width: 100%;
+  }
+
+  footer div
+  {
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #cannebiere , #port , #mouettes , #mer , #panier , #amina
+  {
+    margin: auto;
+  }
+
+  #ligne1, #ligne2
+  {
+    justify-content: space-around;
+  }
+
+  article
+  {
+    width: 95%;
+  }
+
+  #section_3
+  {
+    margin-bottom: 15px;
+  }
+
+  #colonne1, #img1c2, #img2c2, #colonne3, #img1c4, #img2c4
+  {
+    margin-bottom: 5px;
+  }
+
+}
