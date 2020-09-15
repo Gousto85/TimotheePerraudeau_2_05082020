@@ -611,10 +611,3 @@ a
   }
 }
 
-@media all and (max-device-width: 480px)
-{
-  h1
-  {
-    width: 50px;
-  }
-}
