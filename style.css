@@ -609,5 +609,12 @@ a
   {
     margin-bottom: 5px;
   }
+}
 
+@media all and (max-device-width: 480px)
+{
+  h1
+  {
+    width: 50px;
+  }
 }
