@@ -615,6 +615,134 @@ a
 {
   h1
   {
-    width: 200px;
+    width: 350px;
+    font-size: 25px;
+    margin-bottom: 8px;
   }
+
+  #desh1
+  {
+    font-size: 18px;
+    padding-left: 18px;
+  }
+
+  table
+  {
+    margin: auto;
+  }
+
+  #back input
+  {
+    display: none;
+  }
+  
+  #back
+  {
+    background-image: url('sistrix.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    width: 52px;
+    border-radius: 15px;
+  }
+
+  #guauche
+  {
+    width: 52px;
+  }
+
+  #border
+  {
+    height: 52px;
+
+  }
+
+  #barre
+  {
+    height: 52px;
+    font-size: 22px;
+  }
+
+  #filtres
+  {
+    justify-content: start;
+  }
+
+  #filtres2
+  {
+    font-size: 22px;
+    padding-right: 220px;
+    padding-left: 15px;
+    padding-top: 18px;
+    margin: 0px;
+  }
+
+  #economique
+  {
+    margin-left: 15px;
+  }
+
+  #economique, #familiale, #romantique, #animaux
+{
+  height: 50px;
+}
+
+#icone_eco, #icone_fa, #icone_rom, #icone_ani
+{
+  width: 50px;
+  height: 50px;
+}
+
+#eco, #fam, #rom, #ani
+{
+height: 50px;
+text-align: center;
+font-size: 18px;
+margin-top: 14px;
+padding-left: 12px;
+padding-right: 18px;
+}
+
+#romantique, #animaux
+{
+  margin-left: 15px;
+}
+
+#romantique
+{
+  margin-right: 20px;
+}
+
+#economique, #romantique
+{
+  margin-bottom: 15px;
+}
+
+#icone1, #icone2, #icone3, #icone4
+{
+  width: 22px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#info
+{
+  width: 15px;
+  height: 12px;
+  padding: 8px;
+}
+
+#info_t
+{
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+#it
+{
+  font-size: 20px;
+  padding-left: 10px;
+}
+
 }
