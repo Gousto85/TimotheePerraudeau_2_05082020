@@ -60,6 +60,13 @@ nav a:hover
   color: black;
 }
 
+header p
+{
+  font-size: 11px;
+  margin-top: 0px;
+  margin-left: 55px;
+  margin-right: 15px;
+}
 #section_1
 {
   margin-bottom: 20px;
@@ -569,12 +576,12 @@ a
     width: 250px;
   }
   
-  #colonne1, #colonne2, 
+  #colonne1, #colonne2 
   {
     margin-right: 36px;
   }
   
-  #colonne1 img, #colonne3 img, 
+  #colonne1 img, #colonne3 img 
   {
     width: 100%;
   }
@@ -637,6 +644,52 @@ a
 
 @media all and (max-device-width: 480px)
 {
+
+  header
+  {
+    flex-wrap: wrap;
+  }
+  #logo img
+  {
+    width: 240px;
+    height: 120px;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+
+  #logo
+  {
+    width: 60%;
+  }
+
+  nav
+  {
+    width: 100%;
+    order: 3;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 4px solid #F2F2F2;
+    padding-bottom: 70px;
+  }
+
+  nav a
+  {
+    font-size: 40px;
+    width: 50%;
+  }
+
+  nav a:hover
+  {
+    border-bottom: 4px solid #0065FC;
+    color: #0065FC;
+  }
+  header p
+  {
+    font-size: 40px;
+    padding-right: 30px;
+    padding-top: 100px;
+    color: #0065FC;
+  }
   h1
   {
     width: 800px;
@@ -725,6 +778,10 @@ a
 {
   height: 120px;
   border-radius: 100px;
+  border-top: 5px solid #f2f2f2;
+  border-right: 5px solid #f2f2f2;
+  border-bottom: 5px solid #f2f2f2;
+
 }
 
 #icone_eco, #icone_fa, #icone_rom, #icone_ani
@@ -772,8 +829,8 @@ height: 120px;
 text-align: center;
 font-size: 40px;
 margin-top: 35px;
-padding-left: 12px;
-padding-right: 18px;
+padding-left: 25px;
+padding-right: 50px;
 }
 
  #animaux
@@ -797,23 +854,29 @@ padding-right: 18px;
   display: none;
 }
 
+#icone_eco:hover, #icone_fa:hover, #icone_rom:hover, #icone_ani:hover
+{
+  background: #0065FC;
+}
+
 #info
 {
-  width: 15px;
-  height: 12px;
-  padding: 8px;
+  width: 35px;
+  height: 35px;
+  padding: 12px;
+  border-radius: 100px;
 }
 
 #info_t
 {
-  margin-left: 15px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 
 #it
 {
-  font-size: 20px;
-  padding-left: 10px;
+  font-size: 40px;
+  padding-left: 35px;
 }
 
 #populaire
@@ -824,6 +887,19 @@ padding-right: 18px;
 #ligne1, #ligne2
 {
   flex-direction: column;
+}
+
+#logpop h2
+{
+  font-size: 57px;
+}
+
+#chart
+{
+  width: 55px;
+  height: 55px;
+  padding-top: 55px;
+  padding-left: 270px;
 }
 
 aside
@@ -850,4 +926,161 @@ aside img
   border-bottom-left-radius: 34px;
   margin: 14px;
 }
+
+aside h3
+{
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.desimg
+{
+  font-size: 35px;
+  margin-left: 35px;
+}
+
+.star
+{
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  padding-right: 5px;
+}
+
+.note2
+{
+  margin-left: 35px;
+  margin-top: 120px;
+}
+
+aside
+{
+  margin-bottom: 20px;
+}
+
+#eau
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#section_2 article
+{
+  background-color: white;
+}
+
+article h2
+{
+  font-size: 57px;
+  padding-left: 10px;
+}
+
+article h3
+{
+  font-size: 40px;
+  margin-left: 35px;
+  padding-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+.imgh
+{
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+}
+
+article .notes
+{
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cannebiere, #port, #mouettes, #mer, #panier, #amina
+{
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 34px;
+  box-shadow: 10px 10px 10px #f2f2f2;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+#aff
+{
+  font-size: 40px;
+}
+
+#section_3 h2
+{
+  font-size: 57px;
+}
+
+#activités
+{
+  flex-direction: column;
+}
+
+#colonne1, #colonne2, #colonne3, #colonne4
+{
+  width: 100%;
+}
+
+#colonne1, #img1c2, #img2c2, #colonne3, #img1c4, #img2c4
+{
+  border-radius: 37px;
+  margin-top: 40px;
+}
+
+#colonne1 img, #img1c2 img, #img2c2 img, #colonne3 img, #img1c4 img, #img2c4 img
+{
+  border-top-left-radius: 37px;
+  border-top-right-radius: 37px;
+  height: 300px;
+}
+
+.legact h3
+{
+  font-size: 40px;
+  margin: 30px;
+  padding-left: 30px;
+}
+
+footer
+{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+footer div
+{
+  margin: 0px;
+}
+
+footer h3
+{
+  font-size: 40px;
+  padding-left: 60px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+footer p
+{
+  font-size: 35px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+
+#assistance
+{
+  margin-bottom: 100px;
+}
+
+
 }
