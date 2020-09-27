@@ -615,15 +615,16 @@ a
 {
   h1
   {
-    width: 350px;
-    font-size: 25px;
+    width: 800px;
+    font-size: 55px;
     margin-bottom: 8px;
+    padding-left: 25px;
   }
 
   #desh1
   {
-    font-size: 18px;
-    padding-left: 18px;
+    font-size: 40px;
+    padding-left: 25px;
   }
 
   table
@@ -745,4 +746,38 @@ padding-right: 18px;
   padding-left: 10px;
 }
 
+#populaire
+{
+  flex-direction: column;
+}
+
+#ligne1, #ligne2
+{
+  flex-direction: column;
+}
+
+aside
+{
+  background: #f2f2f2;
+  width: 100%;
+  border-radius: none;
+}
+
+#soleil, #eau, #bleu_et_blanc
+{
+  display: flex;
+  width: 90%;
+  background: white;
+  border-radius: 35px;
+  height: 378px;
+}
+
+aside img
+{
+  width: 350px;
+  height: 350px;
+  border-top-left-radius: 34px;
+  border-bottom-left-radius: 34px;
+  margin: 14px;
+}
 }
